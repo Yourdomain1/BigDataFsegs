@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licence Computer Science : Spécialité Big Data - FSEGS Sfax</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0f172a',
+                        brandBlue: '#1e3a8a',
+                        accentBlue: '#3b82f6',
+                        accentCyan: '#06b6d4'
+                    },
+                    animation: {
+                        'float': 'float 3s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-accentBlue selection:text-white">
+
+    <nav class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 py-4 px-6 sticky top-0 z-50 transition-all">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-4 bg-slate-800/50 p-2 rounded-xl border border-slate-700/50">
+                <img src="FSEGS logo.jpg" alt="Logo FSEGS Sfax" class="h-12 w-auto object-contain bg-white rounded-md p-1">
+                <div class="h-8 w-px bg-slate-700"></div>
+                <img src="UnivSfaxLogo.png" alt="Logo Université de Sfax" class="h-12 w-auto object-contain bg-white rounded-md p-1">
+                <div class="hidden lg:block text-left ml-2">
+                    <span class="block text-sm font-bold text-white tracking-wide">FSEGS SFAX</span>
+                    <span class="block text-[10px] text-slate-400">Université de Sfax</span>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <a href="#programme" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Programme</a>
+                <a href="#debouches" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Débouchés</a>
+                <div class="h-4 w-px bg-slate-700 hidden sm:block"></div>
+                <a href="business-computing.html" class="group bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white text-xs font-bold px-5 py-2.5 rounded-full shadow-lg transition-all transform hover:scale-105 flex items-center gap-2">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Veuillez découvrir la licence BC
+                    <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-gradient-to-br from-slate-950 via-brandDark to-brandBlue py-20 px-6 overflow-hidden border-b border-slate-800">
+        <div class="absolute top-1/4 -left-32 w-96 h-96 bg-accentBlue/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-1/4 -right-32 w-96 h-96 bg-accentCyan/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto grid md:grid-cols-12 gap-12 items-center relative z-10">
+            <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                <span class="inline-flex items-center gap-1.5 bg-blue-500/10 text-accentBlue border border-blue-500/20 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                    <i class="fa-solid fa-calendar-days animate-pulse"></i> Nouvelle Licence Universitaire 2026 / 2027
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+                    Licence Computer Science <br>
+                    <span class="bg-gradient-to-r from-accentBlue to-accentCyan bg-clip-text text-transparent">Spécialité Big Data</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 max-w-2xl font-light leading-relaxed">
+                    "Transforme les données en décisions intelligentes !". Rejoins l'excellence académique à la <span class="font-semibold text-white">FSEGS Sfax</span> et maîtrise l'avenir technologique.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
+                    <span class="bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2"><i class="fa-solid fa-brain text-accentBlue"></i> IA &amp; Deep Learning</span>
+                    <span class="bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-sm font-medium flex items-center gap-2"><i class="fa-solid fa-shield-halved text-accentCyan"></i> Cybersecurity</span>
+                </div>
+            </div>
+
+            <div class="md:col-span-5 flex justify-center relative">
+                <div class="animate-float w-full max-w-sm bg-gradient-to-br from-slate-900 to-slate-800 p-8 rounded-2xl border border-slate-700 shadow-2xl relative">
+                    <div class="absolute -top-4 -right-4 bg-accentBlue text-white text-xs font-bold px-3 py-1 rounded-md transform rotate-12 shadow-md">
+                        TOP FORMATION
+                    </div>
+                    <div class="space-y-4 font-mono text-xs">
+                        <div class="flex items-center justify-between border-b border-slate-700 pb-2">
+                            <span class="text-slate-400">COMPOSANTE :</span>
+                            <span class="text-accentBlue font-bold">IA / ML / DL <i class="fa-solid fa-check-double"></i></span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-slate-700 pb-2">
+                            <span class="text-slate-400">SÉCURITÉ :</span>
+                            <span class="text-accentCyan font-bold">Cybersecurity <i class="fa-solid fa-shield"></i></span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-slate-700 pb-2">
+                            <span class="text-slate-400">ÉTHIQUE DE L'IA :</span>
+                            <span class="text-emerald-400 font-bold">Inclus &amp; Certifié</span>
+                        </div>
+                        <div class="bg-slate-950 p-4 rounded-lg text-[11px] text-slate-300 border border-slate-800 leading-relaxed">
+                            <span class="text-accentBlue">root@fsegs:~#</span> ./start_future_2026<br>
+                            <span class="text-green-400">✔ Big Data Analytics framework loaded.</span><br>
+                            <span class="text-yellow-400">⚠ Éthique &amp; Gouvernance : Active.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="programme" class="max-w-7xl mx-auto px-6 py-20 space-y-24">
+        
+        <section class="space-y-12">
+            <div class="text-center max-w-3xl mx-auto space-y-4">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                    <i class="fa-solid fa-layer-group text-accentBlue mr-2"></i>Aperçu Simplifié du Parcours (3 ans)
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base">
+                    Une architecture pédagogique progressive pour devenir un expert complet du Big Data, combinant savoirs techniques avancés et responsabilité éthique.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-800 hover:border-accentBlue/50 transition-all group hover:-translate-y-1 duration-300 flex flex-col justify-between shadow-lg">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-accentBlue uppercase tracking-wider font-mono">Semestres 1 &amp; 2</span>
+                            <div class="bg-accentBlue/10 p-2.5 rounded-xl text-accentBlue"><i class="fa-solid fa-code"></i></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-accentBlue transition-colors">1ère Année : Fondations Informatiques</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Maîtrise des fondamentaux du code, du raisonnement algorithmique et introduction aux concepts de sécurité.</p>
+                        <ul class="text-xs text-slate-300 space-y-2.5 pt-2">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentBlue mt-1"></i> Programmation fondamentale (Python &amp; R)</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentBlue mt-1"></i> Structures de données et algorithmes</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentBlue mt-1"></i> Initiation à la <strong>Sécurité Informatique</strong></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentBlue mt-1"></i> Mathématiques appliquées et algèbre linéaire</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+                        <span class="bg-blue-500/10 text-accentBlue text-[10px] font-bold px-2 py-0.5 rounded border border-blue-500/20"><i class="fa-solid fa-shield-halved mr-1"></i>Sécurité</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-800 hover:border-accentCyan/50 transition-all group hover:-translate-y-1 duration-300 flex flex-col justify-between shadow-lg">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-accentCyan uppercase tracking-wider font-mono">Semestres 3 &amp; 4</span>
+                            <div class="bg-accentCyan/10 p-2.5 rounded-xl text-accentCyan"><i class="fa-solid fa-database"></i></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-accentCyan transition-colors">2ème Année : Big Data &amp; Modélisation</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Entrée dans le traitement de données volumineuses et la construction des premiers algorithmes d'apprentissage.</p>
+                        <ul class="text-xs text-slate-300 space-y-2.5 pt-2">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentCyan mt-1"></i> Introduction au <strong>Machine Learning (ML)</strong></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentCyan mt-1"></i> Outils Hadoop, Spark et architectures distribuées</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentCyan mt-1"></i> Gestion avancée et protection de bases de données</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-accentCyan mt-1"></i> Approfondissement en <strong>Cybersecurity</strong> des flux</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+                        <span class="bg-cyan-500/10 text-accentCyan text-[10px] font-bold px-2 py-0.5 rounded border border-cyan-500/20"><i class="fa-solid fa-brain mr-1"></i>Machine Learning</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-800 hover:border-emerald-500/50 transition-all group hover:-translate-y-1 duration-300 flex flex-col justify-between shadow-lg">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider font-mono">Semestres 5 &amp; 6</span>
+                            <div class="bg-emerald-500/10 p-2.5 rounded-xl text-emerald-400"><i class="fa-solid fa-robot"></i></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">3ème Année : Intelligence Avancée</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Spécialisation ultime en réseaux de neurones complexes couplée à une solide vision éthique légale.</p>
+                        <ul class="text-xs text-slate-300 space-y-2.5 pt-2">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-emerald-400 mt-1"></i> <strong>Intelligence Artificielle</strong> &amp; <strong>Deep Learning (DL)</strong></li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-emerald-400 mt-1"></i> <strong>Éthique de l'IA</strong> et gouvernance des données</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-chevron-right text-emerald-400 mt-1"></i> Outils de Data Visualization complexes (Tableau, PowerBI)</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-star text-amber-400 mt-1"></i> <span class="font-semibold text-emerald-400">Projet de Fin d'Études (PFE) &amp; Stage</span></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+                        <span class="bg-emerald-500/10 text-emerald-400 text-[10px] font-bold px-2 py-0.5 rounded border border-emerald-500/20"><i class="fa-solid fa-scale-balanced mr-1"></i>Éthique de l'IA</span>
+                        <span class="bg-purple-500/10 text-purple-400 text-[10px] font-bold px-2 py-0.5 rounded border border-purple-500/20"><i class="fa-solid fa-microchip mr-1"></i>Deep Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-r from-indigo-950 via-slate-900 to-teal-950 p-8 rounded-3xl border border-slate-800 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden">
+            <div class="absolute -right-16 -top-16 w-32 h-32 bg-teal-500/5 rounded-full blur-2xl"></div>
+            <div class="space-y-2 text-center lg:text-left">
+                <h4 class="text-xl font-bold text-white">Vous préférez le management numérique et l'architecture des SI métiers ?</h4>
+                <p class="text-sm text-slate-400">Découvrez également notre autre nouveauté : la Licence <strong>Business Computing (BIS)</strong>.</p>
+            </div>
+            <a href="business-computing.html" class="group bg-white text-slate-900 font-bold text-sm px-6 py-3 rounded-xl transition-all hover:bg-teal-50 shadow-md flex items-center gap-2 whitespace-nowrap">
+                Veuillez découvrir la nouvelle licence BC <i class="fa-solid fa-circle-arrow-right text-teal-600 group-hover:translate-x-1 transition-transform"></i>
+            </a>
+        </section>
+
+        <section id="debouches" class="grid md:grid-cols-12 gap-8 items-stretch">
+            <div class="md:col-span-5 bg-slate-800/20 p-8 rounded-3xl border border-slate-800 flex flex-col justify-between">
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-briefcase text-accentBlue"></i> Métiers &amp; Débouchés
+                    </h3>
+                    <p class="text-xs text-slate-400">Les profils de diplômés les plus recherchés du marché mondial :</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">Data Scientist</div>
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">Data Analyst</div>
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">Data Engineer</div>
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">ML Engineer</div>
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">Analyste Cybersécurité</div>
+                        <div class="p-3 bg-slate-800/50 rounded-xl border border-slate-700/40 text-xs font-semibold text-slate-200 hover:bg-slate-800 transition-colors">Consultant Éthique &amp; IA</div>
+                    </div>
+                </div>
+                <p class="text-[10px] text-slate-500 mt-6 italic text-right">FSEGS Sfax - Promo 2026/2027</p>
+            </div>
+
+            <div class="md:col-span-7 bg-slate-800/20 p-8 rounded-3xl border border-slate-800 space-y-6">
+                <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-bolt text-accentCyan"></i> Compétences acquises à la FSEGS
+                </h3>
+                <div class="grid sm:grid-cols-2 gap-4 text-sm text-slate-300">
+                    <div class="p-4 bg-slate-800/30 rounded-xl border border-slate-800 space-y-1">
+                        <h4 class="font-bold text-white text-xs flex items-center gap-1.5"><i class="fa-solid fa-circle text-[6px] text-accentBlue"></i> Data &amp; Algorithmes</h4>
+                        <p class="text-xs text-slate-400">Modélisation, statistiques multivariées et manipulation via Python/R.</p>
+                    </div>
+                    <div class="p-4 bg-slate-800/30 rounded-xl border border-slate-800 space-y-1">
+                        <h4 class="font-bold text-white text-xs flex items-center gap-1.5"><i class="fa-solid fa-circle text-[6px] text-accentCyan"></i> IA Avancée</h4>
+                        <p class="text-xs text-slate-400">Conception de structures complexes en Deep Learning et Machine Learning.</p>
+                    </div>
+                    <div class="p-4 bg-slate-800/30 rounded-xl border border-slate-800 space-y-1">
+                        <h4 class="font-bold text-white text-xs flex items-center gap-1.5"><i class="fa-solid fa-circle text-[6px] text-emerald-400"></i> Éthique &amp; Loi</h4>
+                        <p class="text-xs text-slate-400">Compréhension des biais algorithmiques et cadres éthiques mondiaux.</p>
+                    </div>
+                    <div class="p-4 bg-slate-800/30 rounded-xl border border-slate-800 space-y-1">
+                        <h4 class="font-bold text-white text-xs flex items-center gap-1.5"><i class="fa-solid fa-circle text-[6px] text-purple-400"></i> Cyber-Défense</h4>
+                        <p class="text-xs text-slate-400">Sécurisation des architectures distribuées cloud et pipelines Big Data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-800/10 p-8 rounded-3xl border border-slate-800 text-center max-w-3xl mx-auto space-y-4">
+            <h3 class="text-lg font-bold text-white"><i class="fa-solid fa-passport text-accentBlue mr-2"></i>Public Cible &amp; Conditions d'Accès</h3>
+            <p class="text-xs text-slate-400 max-w-xl mx-auto leading-relaxed">
+                Cette formation s'adresse aux bacheliers brillants issus des sections : <span class="text-white font-medium">Mathématiques, Sciences Expérimentales, Sciences de l'Informatique, Économie &amp; Gestion</span> (ou diplômes équivalents). Passion, curiosité et logique sont vos meilleurs atouts.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-8 items-center">
+            <div class="space-y-3 text-center sm:text-left">
+                <h4 class="text-white font-bold text-sm tracking-wide">FACULTÉ DES SCIENCES ÉCONOMIQUES ET DE GESTION DE SFAX</h4>
+                <p class="text-xs">Route de l'Aéroport Km 4, Sfax, Tunisie</p>
+                <div class="text-xs space-y-1">
+                    <p><i class="fa-solid fa-envelope mr-1 text-slate-500"></i> contact@fsegs.u-sfax.tn</p>
+                    <p><i class="fa-solid fa-globe mr-1 text-slate-500"></i> www.fsegs.u-sfax.tn</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-3">
+                <span class="text-xs font-semibold text-white">Suivez notre actualité :</span>
+                <div class="flex justify-center gap-4 text-xl">
+                    <a href="#" class="hover:text-accentBlue transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-cyan-400 transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-pink-500 transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <span class="text-[11px] font-medium text-slate-500">/ FSEGS Sfax Officiel</span>
+            </div>
+
+            <div class="text-center space-y-2">
+                <span class="bg-slate-900 border border-slate-800 text-slate-300 text-[10px] px-3 py-1 rounded-full inline-block">Rentrée 2026/2027</span>
+                <p class="text-xs text-slate-400 italic">"Construis ton avenir numérique dans la plus prestigieuse institution de la région."</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center gap-2">
+                <div class="bg-white p-2 rounded-xl inline-block shadow-lg">
+                    <div class="w-16 h-16 bg-slate-900 flex flex-wrap p-1 rounded gap-0.5">
+                        <div class="w-4 h-4 bg-white border-2 border-slate-900"></div>
+                        <div class="w-4 h-4 bg-slate-900"></div>
+                        <div class="w-4 h-4 bg-white border-2 border-slate-900"></div>
+                        <div class="w-4 h-4 bg-slate-900"></div>
+                        <div class="w-4 h-4 bg-white"></div>
+                        <div class="w-4 h-4 bg-slate-900"></div>
+                        <div class="w-4 h-4 bg-white border-2 border-slate-900"></div>
+                        <div class="w-4 h-4 bg-slate-900"></div>
+                        <div class="w-4 h-4 bg-white"></div>
+                    </div>
+                </div>
+                <span class="text-[10px] text-slate-500 tracking-wider">SCANNER POUR S'INSCRIRE</span>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-10 pt-6 border-t border-slate-900 text-center text-[11px] text-slate-600">
+            &copy; 2026/2027 Faculté des Sciences Économiques et de Gestion de Sfax. Conçu pour l'orientation universitaire.
+        </div>
+    </footer>
+
+</body>
+</html>
